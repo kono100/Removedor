@@ -23,3 +23,5 @@ while os.path.exists(output_filename):
 
 # SALVA IMAGEM SEM FUNDO
 img_without_back.save(output_filename)
+
+print(f"\nSalvo como: {output_filename}\n")
