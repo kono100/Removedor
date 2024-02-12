@@ -25,3 +25,22 @@ while os.path.exists(output_filename):
 img_without_back.save(output_filename)
 
 print(f"\nSalvo como: {output_filename}\n")
+
+
+
+
+
+
+
+
+# #  VERSÃO MAIS SIMPLES  #
+
+# from rembg import remove
+# from PIL import Image
+# INPUT_PATH = 'praia.png'
+# OUTPUT_PATH = 'praia(sf).png'
+# inp = Image.open(INPUT_PATH)
+# output = remove(inp)
+# output.save(OUTPUT_PATH)
+# print(f"\nSalvo como: {OUTPUT_PATH}\n")
+
